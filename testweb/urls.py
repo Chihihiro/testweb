@@ -22,7 +22,7 @@ from django.urls import path
 
 from django.conf.urls import url
 
-from Hellow import views
+from lists import views
 
 urlpatterns = [
     # path('', views.hello),

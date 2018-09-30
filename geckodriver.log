@@ -1,0 +1,277 @@
+1538289695817	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\qinxd\\AppData\\Local\\Temp\\rust_mozprofile.1raBLEu7Cixd"
+1538289703438	Marionette	INFO	Listening on port 53837
+1538289703472	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538289703512	Marionette	DEBUG	[6442450945] Frame script loaded
+1538289703525	Marionette	DEBUG	[6442450945] Frame script registered
+1538289703715	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538289703969	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538289704046	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1538289704681	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+[Child 20020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20020, Chrome_ChildThread] 1538289966839	Marionette	INFO	Stopped listening on port 53837
+[GPU 1604, Chrome_Chil
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538290225126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\qinxd\\AppData\\Local\\Temp\\rust_mozprofile.bLK6DuEx9QxJ"
+1538290230241	Marionette	INFO	Listening on port 54674
+1538290230549	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538290230594	Marionette	DEBUG	[6442450945] Frame script loaded
+1538290230596	Marionette	DEBUG	[6442450945] Frame script registered
+1538290230622	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538290230715	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538290230724	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1538290230764	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1538290230793	Marionette	INFO	Stopped listening on port 54674
+1538290230861	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+flushAllWindowsAsync()@resource:///modules/sessionstore/SessionStore.jsm:1697
+ssi_onQuitApplicationGranted/<()@resource:///modules/sessionstore/SessionStore.jsm:1624
+trigger()@resource://gre/modules/AsyncShutdown.jsm:710
+_wait()@resource://gre/modules/AsyncShutdown.jsm:857
+wait()@resource://gre/modules/AsyncShutdown.jsm:841
+observe()@resource://gre/modules/AsyncShutdown.jsm:524
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 22260, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 217[Parent 22260, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  AbortError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  AbortError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+[GPU 19956
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538290245022	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\qinxd\\AppData\\Local\\Temp\\rust_mozprofile.6XgNZH7zZI37"
+1538290249887	Marionette	INFO	Listening on port 54739
+1538290249971	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538290250026	Marionette	DEBUG	[6442450945] Frame script loaded
+1538290250030	Marionette	DEBUG	[6442450945] Frame script registered
+1538290250077	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538290250169	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538290250176	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1538290250215	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1538290250242	Marionette	INFO	Stopped listening on port 54739
+1538290250303	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+flushAllWindowsAsync()@resource:///modules/sessionstore/SessionStore.jsm:1697
+ssi_onQuitApplicationGranted/<()@resource:///modules/sessionstore/SessionStore.jsm:1624
+trigger()@resource://gre/modules/AsyncShutdown.jsm:710
+_wait()@resource://gre/modules/AsyncShutdown.jsm:857
+wait()@resource://gre/modules/AsyncShutdown.jsm:841
+observe()@resource://gre/modules/AsyncShutdown.jsm:524
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 18188, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 18188, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538291441774	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\qinxd\\AppData\\Local\\Temp\\rust_mozprofile.LmWzUwDzF1N9"
+1538291446796	Marionette	INFO	Listening on port 56625
+1538291447242	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538291447295	Marionette	DEBUG	[6442450945] Frame script loaded
+1538291447297	Marionette	DEBUG	[6442450945] Frame script registered
+1538291447319	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538291447345	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538291447352	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1538291447384	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1538291451929	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+[Child 20720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20720, Chrome_ChildThread] WARNING: p[Parent 7056, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 211538291454814	Marionette	INFO	Stopped listening on port 56625
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538291795341	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\qinxd\\AppData\\Local\\Temp\\rust_mozprofile.OtMcvmhYmMB6"
+1538291800087	Marionette	INFO	Listening on port 57189
+1538291800268	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538291800314	Marionette	DEBUG	[6442450945] Frame script loaded
+1538291800320	Marionette	DEBUG	[6442450945] Frame script registered
+1538291800357	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538291800430	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538291800438	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1538291800472	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+[Child 17188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17188, Chrome_ChildThread] WARNING: pipe error: 1_mozprofile.QZ3Ttr7JcZBo"
+1538296821087	Marionette	INFO	Listening on port 49870
+1538296821493	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538296821561	Marionette	DEBUG	[6442450945] Frame script loaded
+1538296821570	Marionette	DEBUG	[6442450945] Frame script registered
+1538296821596	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538296821704	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538296821713	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1538296821771	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+[Parent 16336, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16336, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16336, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18341538296911322	Marionette	INFO	Stopped listening on port 49870
+[GPU 6532
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538299417662	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\qinxd\\AppData\\Local\\Temp\\rust_mozprofile.RfjcpHr6ehB1"
+1538299423484	Marionette	INFO	Listening on port 56488
+1538299423789	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538299423830	Marionette	DEBUG	[6442450945] Frame script loaded
+1538299423833	Marionette	DEBUG	[6442450945] Frame script registered
+1538299423855	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538299423874	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538299423883	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1538299424032	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1538299424123	Marionette	INFO	Stopped listening on port 56488
+1538299424189	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+flushAllWindowsAsync()@resource:///modules/sessionstore/SessionStore.jsm:1697
+ssi_onQuitApplicationGranted/<()@resource:///modules/sessionstore/SessionStore.jsm:1624
+trigger()@resource://gre/modules/AsyncShutdown.jsm:710
+_wait()@resource://gre/modules/AsyncShutdown.jsm:857
+wait()@resource://gre/modules/AsyncShutdown.jsm:841
+observe()@resource://gre/modules/AsyncShutdown.jsm:524
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Child 21576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21576, Chrome_ChildThread] WAR[Parent 21704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 221[Parent 21704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14960, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14960JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+[GPU 17364, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538299743645	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\qinxd\\AppData\\Local\\Temp\\rust_mozprofile.wZ1sdwZRBLcJ"
+1538299748835	Marionette	INFO	Listening on port 57005
+1538299749063	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538299749099	Marionette	DEBUG	[6442450945] Frame script loaded
+1538299749100	Marionette	DEBUG	[6442450945] Frame script registered
+1538299749125	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538299749163	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538299749174	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1538299749218	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1538299752495	Marionette	INFO	Stopped listening on port 57005
+1538299752553	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+flushAllWindowsAsync()@resource:///modules/sessionstore/SessionStore.jsm:1697
+ssi_onQuitApplicationGranted/<()@resource:///modules/sessionstore/SessionStore.jsm:1624
+trigger()@resource://gre/modules/AsyncShutdown.jsm:710
+_wait()@resource://gre/modules/AsyncShutdown.jsm:857
+wait()@resource://gre/modules/AsyncShutdown.jsm:841
+observe()@resource://gre/modules/AsyncShutdown.jsm:524
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Child 3060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 306[Parent 17116, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538299811726	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\qinxd\\AppData\\Local\\Temp\\rust_mozprofile.iyDaMJCjWUcO"
+1538299816923	Marionette	INFO	Listening on port 57153
+1538299817163	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538299817268	Marionette	DEBUG	[6442450945] Frame script loaded
+1538299817281	Marionette	DEBUG	[6442450945] Frame script registered
+1538299817303	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538299817353	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538299817363	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://127.0.0.1:8000/
+1538299817420	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://127.0.0.1:8000/
+1538299820622	Marionette	INFO	Stopped listening on port 57153
+1538299820657	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+GeckoDriver.prototype.quit()@driver.js:3319
+despatch()@server.js:297
+execute()@server.js:271
+onPacket/<()@server.js:246
+onPacket()@server.js:245
+_onJSONObjectReady/<()@transport.js:500
+[Parent 15416, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15416, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/c
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
